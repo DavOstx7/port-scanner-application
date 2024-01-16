@@ -1,0 +1,21 @@
+#This are the settings used in this project, feel free to change them (some of them are changable through GUI - log, timeout, vuln)
+INSTRUCTIONS:
+SCREEN_SIZE ---> Screen size of the program. Syntax: takes values like 1000x700 OR fullscreen
+SLEEP_THREAD ---> Sets the time of the break between each scan for online devices. Syntax: takes numbers as seconds (recommended to use 3-7)
+MAX_DEVICE ---> Maximum amount of the devices to be found in the scan for online devices. Syntax: takes numbers like 20, 30
+All of the other ones are changeable through the GUI in the program in the Settings section
+
+: SCREEN_SIZE 
+fullscreen
+: SLEEP_THREAD 
+5
+: MAX_DEVICE
+20
+: SAVE_LOG 
+OFF
+: TIME_OUT 
+None
+: VULN_CHECK 
+OFF
+: SAVE_CONN
+OFF
