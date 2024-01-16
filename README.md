@@ -1,5 +1,12 @@
 # port-scanner-application
+
 This is an old Port Scanner Application written in python ;)
+
+## Prerequisites
+
+1) Requires running on Ubuntu.
+2) Requires nmap installed: `sudo apt install nmap`.
+3) Make the terminal script executable: `chmod +x ./Terminal.sh`.
 
 ## Files
 
