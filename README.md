@@ -1,12 +1,12 @@
-# port-scanner-application
+# Port Scanner Application
 
-This is an old Port Scanner Application written in python ;)
+This is an old Port Scanner Application written in Python ;)
 
 ## Prerequisites
 
 1) Requires running on Ubuntu.
 2) Requires nmap installed: `sudo apt install nmap`.
-3) Make the terminal script executable: `chmod +x ./Terminal.sh`.
+3) Requires to make the Terminal shell script executable: `chmod +x ./Terminal.sh`.
 
 ## Files
 
@@ -15,8 +15,17 @@ This is an old Port Scanner Application written in python ;)
 * `cbcontrol.py` - This module is responsible for extra functionality on checkbutton elements.
 * `portcontrol.py` - This module is responsible for operating ports and network traffic through GUI.
 * `peer2peer.py` - This module is responsible for communicating with other instances of the Application.
-* `TxtProj/*` - The text files that the application loads and uses in runtime.
-* `PicProj/*` - The ping (icons) files that application loads and displays in runtime.
+* `TxtProj/*` - The .txt files that the application loads and uses in runtime.
+* `PicProj/*` - The .png (icon) files that the application loads and displays in runtime.
+* `Examples/*` - Some example images that show the capabilities and features of the port scanner!
 
+## Running
 
-**__NOTE:__** This code was from my highschool's finals project. It is very ugly and should be refactored!
+```shell
+python3 main.py # You may need to run this with sudo if there is insufficient permissions
+```
+
+---
+
+**__NOTE:__** This code was from my highschool's finals project. It does not follow SOLID principles whatsoever, 
+              and should definitely be refactored!
