@@ -2,11 +2,15 @@
 
 This is an old Port Scanner Application written in Python ;)
 
+**__NOTE:__** This code was from my highschool's finals project. It does not follow SOLID principles whatsoever, 
+              and should definitely be refactored!
+
 ## Prerequisites
 
 1) Requires running on Ubuntu.
 2) Requires nmap installed: `sudo apt install nmap`.
 3) Requires to make the Terminal shell script executable: `chmod +x ./Terminal.sh`.
+
 
 ## Files
 
@@ -19,13 +23,26 @@ This is an old Port Scanner Application written in Python ;)
 * `PicProj/*` - The .png (icon) files that the application loads and displays in runtime.
 * `Examples/*` - Some example images that show the capabilities and features of the port scanner!
 
+
 ## Running
 
 ```shell
 python3 main.py # You may need to run this with sudo if there is insufficient permissions
 ```
 
+
+## Examples
+
+### Application
+
+<img src="./Examples/app.png">
+
 ---
 
-**__NOTE:__** This code was from my highschool's finals project. It does not follow SOLID principles whatsoever, 
-              and should definitely be refactored!
+### Port Control
+
+<img src="./Examples/port-control.png">
+
+---
+
+**__NOTE:__** More example images exist under the [Examples](Examples) directory.
